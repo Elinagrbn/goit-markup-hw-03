@@ -220,6 +220,9 @@ header .container {
   justify-content: center;
   flex-direction: column;
 }
+.main-title {
+  max-width: 496px;
+}
 .container .btn {
   display: flex;
   margin-top: 48px;

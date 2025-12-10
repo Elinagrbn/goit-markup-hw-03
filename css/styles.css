@@ -185,9 +185,11 @@ ol {
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 24px 156px;
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -195,6 +197,7 @@ ol {
 header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .section {
   padding: 120px 0;
@@ -234,7 +237,7 @@ header .container {
 img {
   display: block;
 }
-.features-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -278,7 +281,7 @@ img {
   padding: 32px 16px;
 }
 .team-card {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),

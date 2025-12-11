@@ -207,12 +207,20 @@ header .container {
   gap: 40px;
   margin-left: 76px;
 }
+.page-nav a {
+  display: block;
+  padding: 24px 0;
+}
 .contacts ul {
   display: flex;
   gap: 40px;
 }
 .contacts {
   margin-left: auto;
+}
+.contacts a {
+  display: block;
+  padding: 24px 0;
 }
 .page-title.section {
   padding: 188px 0;
@@ -229,6 +237,7 @@ header .container {
 .container .btn {
   display: flex;
   margin-top: 48px;
+  border: none;
 }
 .features .container {
   display: flex;
@@ -253,6 +262,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .features li {
   width: calc((100% - 72px) / 4);
 }
@@ -294,7 +304,8 @@ img {
   width: 100%;
 }
 .team h3,
-.portfolio h3 {
+.portfolio h3,
+.features {
   margin-bottom: 8px;
 }
 
